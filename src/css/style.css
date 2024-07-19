@@ -1,0 +1,159 @@
+body {
+    
+}
+
+.menu {
+    width: 1335px;
+    height: 56px;
+    justify-content: space-between;
+    display: inline-flex;
+}
+
+.left, .right {
+    margin: 10px;
+    display: inline-flex;
+    gap: 24px;
+    padding: 6px 3px 6px 3px;
+}
+
+#pesquisa {
+    width: 448px;
+    height: 30px;
+    display: inline-flex;
+    padding: 12px;
+}
+
+
+
+#barraPesquisa {
+    background-image: url(/src/img/search.png);
+    background-repeat: no-repeat;
+    background-position: 360px;
+    background-position-y: 6px;
+    width: 404px;
+    height: 40px;
+    border: 1px solid;
+    text-indent: 15px;
+    box-shadow: 10px 5px 5px rgba(204, 204, 204, 1);
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 218px;
+    height: 968px;
+    position: absolute;
+    top: 56px;
+    padding: 24px 0px 0px 0px;
+
+}
+
+.icone, .icone-home {
+    display: flex;
+    width: 175px;
+    height: 24px;
+    align-items: center;
+    gap: 16px;
+    padding: 12px;
+    
+
+}
+
+.sidebar-item {
+    width: 112px;
+    height: 16px;
+    font-family: Roboto;
+    font-size: 14px;
+    line-height: 16.41px;
+    padding: 10px;
+    
+}
+
+.icone-home {
+    background-color: rgb(243, 242, 242);
+    border-radius: 15px;
+
+}
+
+.icone-home:hover{
+    background-color: rgb(228, 228, 226);
+    cursor: pointer;
+    border-radius: 15px;
+}
+
+.icone:hover {
+    cursor: pointer;
+    background-color: rgb(243, 242, 242);
+    border-radius: 15px;
+}
+
+.videos {
+    width: 1080px;
+    height: 595px;
+    position: relative;
+    left: 225px;
+    top: 42px;
+    border-radius: 4px;
+    display: inline-grid;
+    grid-template-columns: repeat(4, auto);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 16px;
+    row-gap: 35px;
+    padding-left: 10px;
+}
+
+.video-icone {
+    width: 250px;
+    height: 140.29px;
+}
+
+.descricao {
+    display: inline-flex;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row: repeat(2, 1fr);
+    width: 249x;
+    height: 74px;
+    padding-top: 15px;
+    gap: 10px;
+}
+
+.icone-dio {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+}
+
+.descricao-1 {
+    width: 197px;
+    height: 74px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.41px;
+    text-align: left;
+    position: absolute;
+    top: 148px;
+    left: 65px;
+
+}
+
+.descricao-2{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    text-align: left;
+    position: absolute;
+    top: 195px;
+    left: 65px;
+    color: rgba(81, 81, 81, 1);
+}
+
+.blocos, p {
+    position: relative;
+}
+
+.scrum {
+    top: 176px;
+}
